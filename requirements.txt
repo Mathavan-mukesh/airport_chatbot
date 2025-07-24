@@ -1,7 +1,6 @@
 fastapi
 uvicorn
-openai
-pinecone-client
+pinecone
 transformers
 torch
 sentence-transformers
