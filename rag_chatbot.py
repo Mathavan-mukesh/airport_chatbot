@@ -6,8 +6,8 @@ from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
-INDEX_NAME = "changi-chatbot"
+PINECONE_API_KEY = os.getenv("pcsk_5BtdPt_827YhU6YbsvN6wHwquMokMqMDHGU1B73bTTXPWsS9n3vR8HznvYWfC46XUiWN4G")
+INDEX_NAME = "changi-chatbot-index"
 
 # Init Pinecone + index
 pc = Pinecone(api_key=PINECONE_API_KEY)
