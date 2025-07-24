@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Python virtual environment
+chatbot_env/
+venv/
+ENV/
+env/
+
+# VSCode or PyCharm IDE settings
+.vscode/
+.idea/
+
+# System or OS files
+.DS_Store
+Thumbs.db
+
+# SQLite/DB files if generated locally
+*.sqlite3
+*.db
+*.pid
+
+# FastAPI or Streamlit generated folders (uploads/logs/tmp)
+uploads/
+logs/
+tmp/
+
+# Cloud Deployment / Render-specific
+render.yaml
+Dockerfile
+docker-compose.yml
+
+# Pytest cache
+.pytest_cache/
+
+# Misc: Jupyter/IPython
+.ipynb_checkpoints/
+
+# Don't upload video/doc source data
+data/
+
+# Output folders (if any)
+output/
