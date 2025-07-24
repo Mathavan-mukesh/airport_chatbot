@@ -14,7 +14,7 @@ pc = Pinecone(api_key=PINECONE_API_KEY)
 index = pc.Index(INDEX_NAME)
 
 # Embedding model
-embed_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+embed_model = SentenceTransformer("paraphrase-MiniLM-L3-v2")
 
 # LLM (TinyLLaMA)
 llm = pipeline(
