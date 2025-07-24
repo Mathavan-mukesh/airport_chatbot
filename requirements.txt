@@ -1,9 +1,6 @@
 fastapi
 uvicorn
-<<<<<<< HEAD
-=======
 openai
->>>>>>> 3c14be3fb35e0e8d3182f5889940bc2054fadd87
 pinecone
 transformers
 torch
